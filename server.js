@@ -192,6 +192,6 @@ app.get("/api/users/check-email", (req, res) => {
 // Démarrer le serveur
 app.listen(process.env.PORT, () => {
   const baseURL = ENV === 'production' 
-  ? 'https://espacemayab.com' : `http://localhost:${PORT}`;
+  ? 'https://github.com/jesledev/mayab_api.git' : `http://localhost:${PORT}`;
   console.log(`Server is running on ${baseURL}`);
 });
